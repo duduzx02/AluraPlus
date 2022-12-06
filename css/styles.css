@@ -18,6 +18,8 @@ body{
 
 .container{
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .principal{
@@ -31,5 +33,10 @@ body{
   border-radius: 5px;
   padding: 1em;
   color: var(--principal);
+  display: block;
 }
 
+.botao__secundario{
+  background-color: transparent;
+  border: 2px solid var(--principal);
+}
