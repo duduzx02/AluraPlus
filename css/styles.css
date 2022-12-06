@@ -126,3 +126,29 @@ body {
 li:hover{
   transform: scale(1.1);
 }
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape__lista{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.lista__link{
+  margin: 0 15px;
+}
+
+.lista__link a{
+  color: var(--principal);
+}
+
+.rodape__texto{
+  color: var(--secundario);
+  font-size: 14px;
+  margin: 1em 0;
+}
