@@ -3,6 +3,7 @@
   --secundario: #c0c0c0;
   --botao: #167bf7;
   --cor-fundo: #00030c;
+  --botao-efeito: #3033ff;
 }
 
 * {
@@ -48,6 +49,10 @@ body {
   margin-bottom: 1em;
 }
 
+.container__botao:hover{
+  background-color: var(--botao-efeito);
+}
+
 .container__titulo{
   font-size: 28px;
   font-weight: 700;
@@ -69,6 +74,11 @@ body {
 
 .secundario__imagem{
   width: 80%;
+}
+
+.secundario__imagem:hover{
+  transform: scale(1.1);
+
 }
 
 .secundario{
@@ -125,6 +135,7 @@ body {
 
 li:hover{
   transform: scale(1.1);
+  color: var(--botao-efeito);
 }
 
 .rodape{
@@ -151,4 +162,8 @@ li:hover{
   color: var(--secundario);
   font-size: 14px;
   margin: 1em 0;
+}
+
+.lista__link a:hover{
+  color: var(--botao-efeito);
 }
