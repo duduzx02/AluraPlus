@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style-type: none;
 }
 
 body {
@@ -93,4 +94,35 @@ body {
 
 .container__descricao{
   padding: 0 2rem;
+}
+
+.dispositivos__titulo{
+  font-size: 48px;
+  font-weight: 700;
+
+}
+
+.dispositivos__lista{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto;
+  border: 1px solid var(--principal);
+  width: 90%;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.dispositivos{
+  text-align: center;
+  color: var(--principal);
+}
+
+.lista__item{
+  font-size: 32px;
+}
+
+li:hover{
+  transform: scale(1.1);
 }
